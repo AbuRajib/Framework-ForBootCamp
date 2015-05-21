@@ -29,6 +29,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>target/test-classes/CnnTestFramework.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 </configuration>
             </plugin>
         </plugins>

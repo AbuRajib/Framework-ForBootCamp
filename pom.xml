@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.9.4</version>
+            <version>6.8.21</version>
         </dependency>
 
         <dependency>
@@ -47,5 +47,47 @@
     </dependencies>
 </dependencyManagement>
 
+    <profiles>
+        <profile>
+            <id>amazon-app</id>
+            <modules>
+                <module>Common</module>
+                <module>Amazon</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>citi-app</id>
+            <modules>
+                <module>Common</module>
+                <module>CitiBank</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>cnn-app</id>
+            <modules>
+                <module>Common</module>
+                <module>Cnn</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>facebook-app</id>
+            <modules>
+                <module>Common</module>
+                <module>FaceBook</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>metlife-app</id>
+            <modules>
+                <module>Common</module>
+                <module>MetLife</module>
+            </modules>
+        </profile>
+
+    </profiles>
 
 </project>
