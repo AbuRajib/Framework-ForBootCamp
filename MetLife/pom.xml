@@ -28,7 +28,7 @@
 
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>target/test-classes/</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/MetLifeTestRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

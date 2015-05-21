@@ -32,9 +32,7 @@
                     </suiteXmlFiles>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 </configuration>
-
             </plugin>
-
         </plugins>
     </build>
 
