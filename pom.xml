@@ -11,7 +11,7 @@
 
     <modules>
         <module>Common</module>
-        <module>Amazon</module>
+        <!--<module>Amazon</module>-->
         <module>FaceBook</module>
         <module>Cnn</module>
         <module>MetLife</module>
