@@ -13,7 +13,11 @@
 
     <test name="Amazon Pages">
         <classes>
-            <class name="HomePage.SignIn"/>
+            <!--<class name="HomePage.SignIn"/>-->
+            <!--<class name="HomePage.MenuList"/>-->
+            <!--<class name="HomePage.Sell"/>-->
+            <!--<class name="HomePage.BookSearch"/>-->
+            <class name="HomePage.MyAccount"/>
         </classes>
     </test>
 
